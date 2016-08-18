@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="Showdown.widget.Showdown" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+	<name>Showdown</name>
+	<description>This widget converts the Markdown formatting of a string to HTML formatting.</description>
+	<properties>
+		
+		<property key="name" type="attribute" required="true" isPath="optional" pathType="reference">
+			<caption>Attribute</caption>
+			<category>Data source</category>
+			<description>The attribute that contains the string</description>
+			<attributeTypes>
+				<attributeType name="String"/>
+			</attributeTypes>
+       </property>
+
+	</properties>
+</widget>
